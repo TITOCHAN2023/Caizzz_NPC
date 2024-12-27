@@ -1,8 +1,8 @@
 from datetime import datetime
 from typing import Any, AsyncGenerator, Callable, Dict, Tuple
 from env import FAISS_INDEX_PATH
-from langchain_caizzz.embedding import init_embedding
-from langchain_caizzz.faiss import load_faiss_index
+from langchain_myagent.embedding import init_embedding
+from langchain_myagent.faiss import load_faiss_index
 from logger import logger
 import json
 
@@ -22,8 +22,8 @@ from routes.model.response import StandardResponse
 from ...auth.jwt import jwt_auth
 from middleware.redis import r
 
-from langchain_caizzz.llm import init_llm
-from langchain_caizzz.chain import caizzzchain
+from langchain_myagent.llm import init_llm
+from langchain_myagent.chain import caizzzchain
 
 
 session_router = APIRouter(prefix="/session", tags=["session"])

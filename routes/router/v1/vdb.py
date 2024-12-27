@@ -21,9 +21,9 @@ from middleware.redis import r
 from middleware.hash.hash import hash_string
 from env import UPLOAD_FILES_MAX_SIZE,UPLOAD_FOLDER,FAISS_INDEX_PATH
 
-from langchain_caizzz.llm import init_llm
-from langchain_caizzz.embedding import init_embedding
-from langchain_caizzz.faiss import update_vdb
+from langchain_myagent.llm import init_llm
+from langchain_myagent.embedding import init_embedding
+from langchain_myagent.faiss import update_vdb
 
 vdb_router = APIRouter(prefix="/vdb", tags=["vdb"])
 

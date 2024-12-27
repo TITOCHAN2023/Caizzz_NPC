@@ -8,7 +8,7 @@ from langchain_core.documents.base import Document
 from uuid import uuid4
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from langchain_caizzz.loadDocuments import load_and_split_documents
+from langchain_myagent.loadDocuments import load_and_split_documents
 
 from logger import logger
 
