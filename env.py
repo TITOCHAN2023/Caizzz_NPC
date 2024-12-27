@@ -38,7 +38,7 @@ OPENAI_EMBEDDING_MODEL = os.environ.get("OPENAI_EMBEDDING_MODEL","text-embedding
 DEBUG_MODE= os.environ.get("DEBUG_MODE", "False").lower() == "true"
 
 API_HOST = os.environ.get("API_HOST","localhost")
-API_PORT = int(os.environ.get("API_PORT", "8000"))
+API_PORT = int(os.environ.get("API_PORT", "8333"))
 
 
 
